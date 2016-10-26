@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Pagination</title>
+    <link rel="stylesheet" type="text/css" href="pagination.css">
+    <link rel="stylesheet" type="text/css" href="bootstrap/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+    <script src="bootstrap/bootstrap.min.js"></script>
+    <script src="index.js"></script>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-4">
+                <h3>Pagination Demo</h3>
+            </div>
+            <div class="col-md-4"></div>
+            <div class="col-md-4"></div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="row">
+            <div id="content"></div>
+            <div class="btn_wrapper">
+                <a href="javascript:previous_action()" class="btn btn-default btn_common" id="btn_previous">Previous</a>
+                <span class="page_text">You're in page:</span> <span id="page"></span>
+                <a href="javascript:next_action()" class="btn btn-default btn_common" id="btn_next">Next</a> 
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,32 @@
+#content{
+	    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 60px;
+}
+.btn_wrapper{
+	    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 60px;
+}
+.btn_common{
+	background-color: #fff;
+	padding: 10px;
+	margin: 0px 10px;
+	
+}
+.btn_common:hover{
+	background-color: #fff!important;
+}
+.btn_common:focus{
+	background-color: #fff!important;
+}
+.page_text{
+	font-size: 20px;
+	font-weight:400;
+}
+#page{
+	font-size: 18px;
+	font-weight:400;
+}
